@@ -1,0 +1,320 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+      /*Config*/
+      .bloco{
+            margin: 0;
+          
+            
+
+      }
+      .main-title{
+            font-size: 1.8rem;
+            color: #4b4b4b;
+            border-bottom: solid 3px #6a3096;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(-25px);
+            transition: 0.8s;
+        }
+      /*HEADER*/
+      .logo{
+            font-size: 20px;
+      }
+      header {
+            width: 100%;
+            height: 100vh;
+            background: url(/profile-site/imagens/fundo2.jpg) no-repeat 50% 50%;
+            background-size: cover;
+        }
+      header .navbar{
+            display: none;
+      }
+      .img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit:none;
+            opacity: 0.65;
+            animation: zoom 30s ;
+            display: none;
+            
+        }
+      .banner h1 {
+            
+            font-size: 2.2rem;
+        }
+        
+        .banner p {
+        
+            font-size: 1.2rem;
+           
+        }
+        
+        .banner button {
+            font-size: 0.8rem;
+            padding: 0.7rem 1.4rem;
+            
+        }
+        
+        .banner button:hover {
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+        
+        
+        }
+      
+        /*SERVIÇOS*/
+
+        
+        #servicos .col-sm-6{
+              width: 47%;
+              display: flex;
+              align-items: center;
+              margin-left: 10px;
+              height: 100%;
+              max-height: 450px;
+              margin-bottom: 40px;
+        }
+        #servicos .col-sm-6:first{
+           margin-left: 0;
+      }
+        #servicos a.destaque .img-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 150px;
+            max-height: 150px;
+            width: 250px;
+            width: auto;
+            max-width: 200px;
+          }
+        #servicos a.destaque .img-container img {
+            max-height: 150px;
+          }
+
+
+          /*CONHECIMENTOS*/
+
+
+          #conhecimentos{
+                margin-bottom: 30px;
+          }
+          #conhecimentos .conhecimento-right {
+                display: none;
+          }
+          #conhecimentos .conhecimento-left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+          #conhecimentos .imagem-conhecimento{
+            padding: 0px 5px;
+            background-color: #e7e7e7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid 1px var(--light);
+            height: 60px;
+            width: 80px;
+            transition: ease-out all 0.2s;
+            overflow: hidden;
+            margin-bottom: 20px;
+            
+        }
+        #conhecimentos a.imagem-conhecimento:hover{
+            background-color: white;
+            transform: scale(1.08);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+        }
+        
+        #conhecimentos a.imagem-conhecimento img{
+            filter: grayscale(100%);
+            max-height: 40px;
+            width: 100%;
+            opacity: 0.9;
+            overflow: hidden;
+           
+        }
+        #conhecimentos .text-conhecimento{
+            display:block;
+        }
+
+
+
+        /*PROJETOS*/
+
+
+       .sessao-projetos .card{
+             width: 65%;
+       }
+       .sessao-projetos .card2{
+        width: 65%;
+  }
+      .sessao-projetos .projetos{
+            display: block;
+            height: 100%;
+            margin: 10px 0;
+        }
+        .sessao-projetos .projetos #proj2{
+            display: block;
+            height: 100%;
+            margin: 10px 0;
+        }
+      .projetos .card2{
+                  width: 18rem;
+                  height: 18rem;
+                  position: relative;
+                 
+                  display: none;
+                  margin-bottom: 20px;
+                  
+              }
+      .card{
+                  width: 18rem;
+                  height: 18rem;
+                  position: relative;
+                  margin: 30px 10px;
+                  display: block;
+              }       
+              
+      .projetos .card-info{
+            display: none;
+      }
+      .projetos .btn-mobile{
+            display: block;
+            padding: 5px 12px;
+            border: 1px solid transparent;
+            background-color: #6a3096;
+            margin-bottom: 10px;
+            
+        }
+        .sessao-projetos .btn-mobile > a{
+            color: white;
+            text-decoration: none;
+            
+        }
+       
+
+        /*CONTATO*/
+        #contato .contato-formulario > img{
+              display: none;
+        }
+        /*RODAPÉ*/
+        #link-top {
+            bottom: 6rem;
+            
+        
+        }
+}
+       
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+      /*HEADER*/
+      .banner h1 {
+            
+            font-size: 2.7rem;
+        }
+        
+        .banner p {
+        
+            font-size: 1.5rem;
+           
+        }
+        
+        .banner button {
+            font-size: 1rem;
+            padding: 0.7rem 1.4rem;
+            
+        }
+
+
+        /*Conhecimento*/
+
+
+        #conhecimentos .conhecimento-right img {
+            height: 250px;
+        }
+        #conhecimentos .conhecimento-right {
+              margin-top: 30px;
+        }
+
+
+        /*Portfolio*/
+        .projetos {
+            display: flex;
+            justify-content: center;
+            width: 600px;
+            height: 450px;
+        }
+
+      
+      .card2{
+                  width: 18rem;
+                  height: 22rem;
+                  position: relative;
+                 
+                  display: block;
+                 
+                  overflow: hidden;
+              }
+      .card{
+                  width: 18rem;
+                  height: 22rem;
+                  position: relative;
+                  
+              }       
+              
+      .card .card-info h3{
+           font-size: 22px;
+      }
+      .card .card-info h4{
+        font-size: 19px;
+        }
+     .card .card-info span{
+            font-size: 10px;
+        }
+    .card .card-info button{
+            font-size: 15px;
+            padding: 5px 8px;
+        }
+    .card .card-info:nth-child(2){
+            margin-left: -27px;
+    }
+    .card2 .card-info h3{
+        font-size: 22px;
+   }
+   .card2 .card-info h4{
+     font-size: 19px;
+     }
+  .card2 .card-info span{
+         font-size: 10px;
+     }
+ .card2 .card-info button{
+         font-size: 15px;
+         padding: 5px 8px;
+     } 
+     .card2 .card-info:nth-child(2){
+        margin-left: -27px;
+} 
+
+      /*CONTATO*/
+      #contato .contato-formulario > img{
+            display: none;
+      }
+
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+
+ }
