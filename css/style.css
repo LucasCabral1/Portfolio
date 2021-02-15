@@ -405,10 +405,12 @@ a:hover{
     font-size: 26px;
 
 }
+#sobre .img-container{
 
 
+}
 /*SERVIÇOS*/
-#servicos{
+#servicos {
     background-color: #e7e7e7;
     padding: 15px 0;
 }
