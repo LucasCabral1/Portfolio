@@ -398,6 +398,7 @@ a:hover{
 }
 #sobre p{
     text-align: justify;
+    font-size: 17px;
 }
 #sobre  a > i {
     margin-top: 50px;
@@ -1015,7 +1016,7 @@ footer{
 }
 #contact-area  i{
     font-size: 25px;
-    margin: 10px 20px;
+    margin: 20px 20px;
     color: #444;
     transition: all 0.5s;
        
@@ -1100,5 +1101,5 @@ footer{
 
 
 
-/* ******************Responsividade ******************/
+
 
