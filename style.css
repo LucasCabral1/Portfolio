@@ -937,8 +937,60 @@ textarea:focus, input:focus, select:focus {
 #contato .contato-header .contato-formulario{
     background: #e8e8e8;
 }
+#contato .contact-form {
+    width: 100%;
+    height: 100%;
+    
+    
+}
 
+#contato .contact-form input, label, textarea{
+    width: 70%;
+    
+}
+#contato .contact-form textarea{
+    border-bottom: 1px solid black;
+    
+}
+#contato .contact-form input:focus{
+    border-bottom: 2px solid #481774;
+    
+}
+#contato .contact-form  label{
+    text-align: left;
+    font-weight: bold;
+    
+}
+#contato .contact-form input:focus {
+    border-bottom: 2px solid #481774;
+    
+}
+#contato .contact-form textarea:focus {
+    border-bottom: 2px solid #481774;
+    
+}
 
+#contato .contact-form input{
+    margin-bottom: 3.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    
+    
+}
+#contato .contact-form .btn-form{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:#8E2DE2;
+    color: white;
+    margin: 25px 0;
+    width: 70%;
+    transition: 0.3s;
+    
+}
+#contato .contact-form .btn-form:hover{
+    transform: scale(0.95)
+}
 
 
 .btn-submit{
@@ -953,7 +1005,7 @@ textarea:focus, input:focus, select:focus {
     border-radius: 15px;
     cursor: pointer;
     border: none;
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     height: 2.5rem;
@@ -967,9 +1019,9 @@ textarea:focus, input:focus, select:focus {
 
 }
 .btn-submit:hover{
-    -webkit-transform: scale(0.9);
-    -ms-transform: scale(0.9);
-    transform: scale(0.9);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
 
 }
 

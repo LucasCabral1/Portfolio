@@ -724,7 +724,24 @@
                     <img class="img-fluid" src="/imagens/Contact us-amico.svg" alt="">
                 </div>
                 <div class="col-md-7">
-                    <script type="text/javascript" src="https://form.jotform.com/jsform/210116266970654"></script>
+                    <div class="contact-form ">
+                        <form action="https://api.staticforms.xyz/submit" method='post' class="text-center">
+                            <input type="hidden" name="accessKey" value="1bb20cc4-bf2a-48ce-b790-5d805853f47b"> <!-- Required -->
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name" class="effect-1" placeholder="Digite o seu nome">
+                            <span class="focus-border"></span>
+                            <br>
+
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Digite o seu email">
+                            <br>
+
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message"  cols="10" rows="8" placeholder="Digite o sua mensagem"></textarea>
+                            
+                            <input type="submit" class="btn-form" value="Enviar">
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
